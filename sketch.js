@@ -1,4 +1,4 @@
-let socket = io();
+// let socket = io();
 // Original Excersise:
 // https://2023.software-for-people.net/random.html
 // Takes input form websocket and triggers but make it
@@ -23,11 +23,11 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 
-socket.on("relay", (msg) => {
-  if(msg.type=="butmakeit"){
-    butMakeIt();
-  }
-});
+// socket.on("relay", (msg) => {
+//   if(msg.type=="butmakeit"){
+//     butMakeIt();
+//   }
+// });
 
 function butMakeIt(){
   clear();
