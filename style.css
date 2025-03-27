@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d46ea;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}  
+#message {
+    font-size: 10vh;
+    text-align: center;
+    color: #3aee79;
+}
+
+@media all and (max-width: 600px) {
+    body {
+      background-color: #ea1d95;
+    }
+  }
+
+@media all and (min-width: 1800px) {
+    body {
+      background-color: #32d205;
+    }
+    #message {
+        font-size: 15vh;
+        text-align: center;
+        color: #3aee79;
+    }
+
+  }
+
+.subject{
+    font-style: italic;
+}
